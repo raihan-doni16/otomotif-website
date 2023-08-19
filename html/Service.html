@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Otomotif Profile</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top"
+    >
+      <div class="container">
+        <a href="Service.html"
+          ><img src="/asset/logo.png" width="130" height="70"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Post.html">Post</a>
+            </li>
+            <a class="nav-link active" aria-current="page" href="Service.html"
+              >Service</a
+            >
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="FAQ.html">FAQ</a>
+            </li>
+            <div class="form-check form-switch ms-2 pt-2">
+              <input
+                class="form-check form-switch form-check-input"
+                type="checkbox"
+                id="switchCheckbox"
+                onclick="setDarkMode()"
+              />
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- content -->
+    <div class="container pt-5 text-center pb-5">
+      <div class="row pt-5">
+        <h3 class="service">Our Service</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
+          aspernatur at et vitae modi eos?
+        </p>
+        <div class="col-md-6 pt-2 pb-3 service-card">
+          <div class="card">
+            <img src="/asset/home service.jpg" class="card-img-top" alt="..." />
+            <a href="#" class="btn btn-primary">Home Service</a>
+          </div>
+        </div>
+        <div class="col-md-6 pt-2 service-card">
+          <div class="card">
+            <img src="/asset/call service.jpg" class="card-img-top" alt="..." />
+            <a href="#" class="btn btn-primary">Booking Service</a>
+          </div>
+        </div>
+        <div class="col-md-6 pt-2 pb-3 service-card">
+          <div class="card">
+            <img src="/asset/aksesoris.jpg" class="card-img-top" alt="..." />
+            <a href="#" class="btn btn-primary">Accessories</a>
+          </div>
+        </div>
+        <div class="col-md-6 pt-2 service-card">
+          <div class="card">
+            <img src="/asset/suku cadang.jpg" class="card-img-top" alt="..." />
+            <a href="#" class="btn btn-primary">Suku Cadang</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="pt-5 pb-5">
+      <div class="container-fluid pt-5 pb-5 kontak">
+        <div class="container">
+          <h2 class="display-3 text-center">Kontak Kami</h2>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eos
+            delectus unde esse? Quasi atque similique labore vero quisquam esse!
+          </p>
+          <div class="row pb-3">
+            <div class="col-md-6">
+              <input
+                autocomplete="off"
+                class="form-control form-control-lg mb-3"
+                type="text"
+                placeholder="Name"
+              />
+              <input
+                autocomplete="off"
+                class="form-control form-control-lg mb-3"
+                type="email"
+                placeholder="Email"
+              />
+              <input
+                autocomplete="off"
+                class="form-control form-control-lg mb-3"
+                type="text"
+                placeholder="Name"
+              />
+            </div>
+            <div class="col-md-6">
+              <textarea
+                class="form-control form-control-lg mb-3"
+                rows="5"
+              ></textarea>
+            </div>
+            <div class="col-md-3 mx-auto text-center">
+              <button type="button" class="btn btn-primary btn-lg">
+                Kirim Pesan
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center pb-1 mt-4">
+        All Rights Reserved $Copy; 2023
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/Script.js"></script>
+  </body>
+</html>

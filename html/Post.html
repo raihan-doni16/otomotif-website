@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal Berita</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top"
+    >
+      <div class="container pt-2">
+        <a href="Post.html"
+          ><img src="/asset/logo.png" width="130" height="70"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <a class="nav-link active" aria-current="page" href="Post.html"
+              >Post</a
+            >
+            <li class="nav-item">
+              <a class="nav-link" href="Service.html">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="FAQ.html">FAQ</a>
+            </li>
+            <div class="form-check form-switch ms-2 pt-2">
+              <input
+                class="form-check form-switch form-check-input"
+                type="checkbox"
+                id="switchCheckbox"
+                onclick="setDarkMode()"
+              />
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-4 pt-5">
+      <div class="row">
+        <div class="col-lg-8 berita">
+          <h2 class="card-title mt-2 pt-5 pb-2 text-center">
+            BMW Meluncurkan Mobile Baru
+          </h2>
+          <div class="date">
+            <i class="fa-regular fa-calendar fa-xl"></i>
+            <p class="pt-3">Sunday, 19 August 2030</p>
+            <p class="pt-3">||</p>
+            <i class="fa-regular fa-user fa-lg pt-5 post-icon"></i>
+            <p class="pt-3">Admin Gacor</p>
+          </div>
+
+          <img
+            src="/asset/poster1.jpg"
+            class="card-img-top"
+            alt="Gambar Berita"
+          />
+          <div class="card-body">
+            <p class="card-text pt-3 justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              libero ipsa nihil id quis esse animi distinctio, asperiores
+              nesciunt aliquam inventore? Mollitia nihil dolorum provident
+              eveniet! Voluptas culpa quos omnis obcaecati reiciendis aut animi
+              doloremque voluptatum soluta perferendis, nostrum illo, voluptates
+              id sunt nam incidunt fuga quae quo sequi vero. Neque nobis
+              veritatis officia! Eius temporibus laboriosam eveniet incidunt
+              pariatur velit consectetur consequatur, amet, quaerat facere nam
+              porro repellendus suscipit natus commodi explicabo vel, doloribus
+              iste quae earum! Necessitatibus voluptatem repudiandae porro sunt
+              asperiores earum doloribus quisquam provident libero quas
+              perferendis omnis nemo dolorum, minus adipisci ipsam et tempore
+              atque incidunt distinctio iste velit accusantium laudantium hic.
+              Nemo temporibus, vero deserunt deleniti harum nisi. Maxime, sequi,
+              expedita odio eum assumenda dignissimos adipisci recusandae
+              cupiditate repudiandae, harum porro minus corrupti illo quod quo
+              quasi? Eius saepe quae iusto aliquid. Aut non sunt, ipsum deleniti
+              fugit soluta atque aliquid aspernatur commodi dolor odit itaque
+              dicta minus pariatur doloribus cupiditate eius? Perspiciatis sequi
+              similique maxime, accusantium ratione fuga nihil fugit non commodi
+              nam ut ducimus aut illum, totam inventore in sunt? Sit veritatis
+              alias ullam tempore! Vero ab quasi laboriosam, eum sed odit cumque
+              sit doloribus facilis error, adipisci asperiores, repellat dicta
+              saepe.
+            </p>
+
+            <h2 class="fs-1 mt-3 pt-4">Tags :</h2>
+            <h2 class="fs-2 mt-2 pt-2">Kategori :</h2>
+          </div>
+
+          <!-- Tambahkan lebih banyak card berita di sini -->
+        </div>
+        <div class="col-lg-4 pt-5 mt-5">
+          <div class="card poster">
+            <div class="card-body">
+              <h5 class="card-title">Berita Terpopuler</h5>
+              <div class="container">
+                <div class="card mt-3 mb-3 poster-detail">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="/asset/poster1.jpg"
+                        class="card-img-top"
+                        alt="Berita Populer 1"
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body text">
+                        <a href="Post.html">Berita Populer</a>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="card mt-3 mb-3 poster-detail">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="/asset/poster2.jpg"
+                        class="card-img-top"
+                        alt="Berita Populer 1"
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body text">
+                        <a href="#">Berita Populer</a>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="card mt-3 mb-3 poster-detail">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="/asset/poster3.jpg"
+                        class="card-img-top"
+                        alt="Berita Populer 1"
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body text">
+                        <a href="#">Berita Populer</a>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="card mt-3 mb-3 poster-detail">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="/asset/poster4.jpg"
+                        class="card-img-top"
+                        alt="Berita Populer 1"
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body text">
+                        <a href="#">Berita Populer</a>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card poster">
+            <div class="card-body">
+              <h5 class="card-title">Jumlah Berita</h5>
+              <ul class="list-group pt-4">
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  Berita 2022
+                  <span>0</span>
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  Berita 2023
+                  <span>0</span>
+                </li>
+                <!-- Tambahkan lebih banyak berita terpopuler di sini -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="pt-5 pb-5">
+      <div class="container-fluid pt-5 pb-5 kontak">
+        <div class="container">
+          <h2 class="display-3 text-center">Kontak Kami</h2>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eos
+            delectus unde esse? Quasi atque similique labore vero quisquam esse!
+          </p>
+          <div class="row pb-3">
+            <div class="col-md-6">
+              <input
+                autocomplete="off"
+                class="form-control form-control-lg mb-3"
+                type="text"
+                placeholder="Name"
+              />
+              <input
+                autocomplete="off"
+                class="form-control form-control-lg mb-3"
+                type="email"
+                placeholder="Email"
+              />
+              <input
+                autocomplete="off"
+                class="form-control form-control-lg mb-3"
+                type="text"
+                placeholder="Name"
+              />
+            </div>
+            <div class="col-md-6">
+              <textarea
+                class="form-control form-control-lg mb-3"
+                rows="5"
+              ></textarea>
+            </div>
+            <div class="col-md-3 mx-auto text-center">
+              <button type="button" class="btn btn-primary btn-lg">
+                Kirim Pesan
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center pb-1 mt-4">
+        All Rights Reserved $Copy; 2023
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a4f0a19fed.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/Script.js"></script>
+  </body>
+</html>

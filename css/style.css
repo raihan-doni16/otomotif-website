@@ -1,0 +1,160 @@
+.carousel-item img {
+  max-width: 100%;
+  height: 600px;
+  color: gold;
+}
+.kontak {
+  background: url(https://wallpaperaccess.com/full/1867010.jpg) no-repeat center
+    center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  height: auto;
+  color: #fff;
+}
+.welcom {
+  text-align: justify;
+}
+.post {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 2px solid #4f4d4d;
+  margin-right: 10px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.fa-user {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -50px;
+}
+.about {
+  background-color: azure;
+  border-radius: 10px;
+}
+.justify {
+  text-align: justify;
+}
+.iconabout {
+  margin-top: -70px;
+}
+
+.mitra img {
+  height: auto;
+  max-height: 100px;
+}
+.darkmode {
+  background-color: black;
+  color: #fff;
+}
+.poster {
+  border: 2px solid rgb(128, 128, 128);
+  margin-top: 20px;
+}
+.poster-detail {
+  border-color: transparent;
+}
+.text {
+  margin-top: -20px;
+}
+.text a {
+  text-decoration: none !important;
+  color: #933e10;
+}
+.date {
+  display: flex;
+  align-items: center;
+}
+.date i,
+.date p {
+  margin-right: 15px;
+}
+
+/* responsive */
+@media (max-width: 450px) {
+  html {
+    font-size: 75%;
+  }
+  .bout {
+    margin-top: 20px;
+  }
+
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .welcom {
+    margin-top: 20px;
+  }
+
+  .col-md-4 {
+    margin-bottom: 20px;
+  }
+
+  .mitra img {
+    max-width: 70%;
+  }
+  .form-control {
+    max-width: 100%;
+  }
+  .contact-margin {
+    margin-top: 10px;
+  }
+  footer {
+    margin-bottom: 10px;
+  }
+  .service {
+    margin-top: 20px;
+  }
+  .service-card {
+    max-width: 80%;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  .poster {
+    max-width: 90%;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .berita {
+    max-width: 90%;
+    margin-left: 10px;
+  }
+  .inframe inframe {
+    width: 200px;
+  }
+  .post-icon {
+    padding-top: 4px;
+  }
+  .kontak-faq {
+    margin-top: 10px;
+  }
+
+  .kontak input,
+  .kontak textarea,
+  .kontak button {
+    width: 100%;
+  }
+
+  .contact-margin {
+    margin-top: 40px;
+  }
+
+  .col-md-4 {
+    margin-bottom: 20px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 200px;
+  }
+
+  .kontak h2 {
+    font-size: 24px;
+  }
+}
